@@ -1,6 +1,6 @@
 <div align="center">
 
-# SBI Sense
+# SBI FlowSense
 
 ### Agentic AI Banking Intelligence Platform
 

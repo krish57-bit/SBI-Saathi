@@ -120,10 +120,10 @@ function LoginScreen({ onLogin }) {
         <div className="login__bg" />
         <div className="login__card login__card--welcome">
           <div className="login__logo-row">
-            <img src="/logo.svg" alt="SBI Sense" className="login__brand-img" />
+            <img src="/logo.svg" alt="SBI FlowSense" className="login__brand-img" />
           </div>
           <div className="login__shield">{I.shield}</div>
-          <h1 className="login__title">Welcome to SBI Sense</h1>
+          <h1 className="login__title">Welcome to SBI FlowSense</h1>
           <p className="login__subtitle">Your AI-powered banking intelligence platform. Secure, smart, and personalized.</p>
           <button className="login__cta" onClick={() => setStep('account')}>
             Sign In to Your Account
@@ -144,7 +144,7 @@ function LoginScreen({ onLogin }) {
         <div className="login__card">
           <button className="login__back" onClick={() => setStep('welcome')}>&larr; Back</button>
           <div className="login__logo-row login__logo-row--sm">
-            <img src="/logo-icon.svg" alt="SBI Sense" className="login__icon-img" />
+            <img src="/logo-icon.svg" alt="SBI FlowSense" className="login__icon-img" />
           </div>
           <h2 className="login__heading">Enter Your Account Number</h2>
           <p className="login__desc">Please enter your SBI account number or customer ID to continue</p>
@@ -180,7 +180,7 @@ function LoginScreen({ onLogin }) {
       <div className="login__card">
         <button className="login__back" onClick={() => { setStep('account'); setMpin(['','','','','','']); setError('') }}>&larr; Back</button>
         <div className="login__logo-row login__logo-row--sm">
-          <img src="/logo-icon.svg" alt="SBI Sense" className="login__icon-img" />
+          <img src="/logo-icon.svg" alt="SBI FlowSense" className="login__icon-img" />
         </div>
         <h2 className="login__heading">Enter Your MPIN</h2>
         <p className="login__desc">Enter your 6-digit MPIN to securely access your account</p>
@@ -301,8 +301,8 @@ function Sidebar({ activeTab, onTabChange, user, onLogout }) {
   return (
     <aside className="sidebar">
       <div className="sidebar__brand">
-        <img src="/logo-icon.svg" alt="SBI Sense" className="sidebar__logo-img" />
-        <span className="sidebar__brand-text">SBI Sense</span>
+        <img src="/logo-icon.svg" alt="SBI FlowSense" className="sidebar__logo-img" />
+        <span className="sidebar__brand-text">SBI FlowSense</span>
       </div>
 
       <nav className="sidebar__nav">

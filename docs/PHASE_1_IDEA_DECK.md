@@ -143,23 +143,21 @@ Metrics:
 
 Already built / prototype scope:
 
-- React dashboard.
-- FastAPI backend.
-- MongoDB data model.
-- Event ingestion.
-- Life-event detection.
-- Journey orchestration.
-- Agent action cards.
-- Consent and mock execution.
-- Audit log.
-- Standalone and Kafka-ready modes.
+- React dashboard with real-time search, transaction filters, and contextual AI agent cards.
+- FastAPI backend with SSE streaming and life-event detection.
+- MongoDB data model with 7 collections and immutable audit trail.
+- Event ingestion, life-event detection, and journey orchestration.
+- AI agent recommendations with confidence scores and contextual action labels.
+- Consent-first execution with approve/reject flow.
+- Standalone and Kafka-ready deployment modes.
+- Production-quality UI with time-based greetings, working search, and user-friendly settings.
 
 Next phase:
 
-- Polish first-salary demo.
-- Add integration tests.
-- Capture real UI screenshots.
-- Prepare live demo for jury.
+- Record and submit demo video.
+- Add integration tests for critical flows.
+- Expand life-event detectors beyond the initial three.
+- Prepare live demo for jury presentation.
 
 ## Slide 11: Roadmap
 

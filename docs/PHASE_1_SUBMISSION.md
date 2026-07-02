@@ -92,12 +92,13 @@ FlowSense can help SBI:
 The prototype demonstrates:
 
 - Event ingestion for synthetic customer events.
-- FIRST_SALARY, RELOCATION, and PAYMENT_STRESS detection.
-- Journey creation and progress tracking.
-- Acquisition, Lifestyle, and Engagement agent recommendations.
-- Consent approval/rejection.
+- FIRST_SALARY, RELOCATION, and PAYMENT_STRESS detection with confidence scoring.
+- Journey creation, multi-step progress tracking, and completion.
+- Acquisition, Lifestyle, and Engagement agent recommendations with contextual action labels.
+- Consent approval/rejection with real-time UI updates via SSE.
 - Mock execution of salary account, UPI, SIP, autopay, local offers, and EMI actions.
-- Audit log for every step.
+- Production-quality dashboard with working search, transaction filters, and time-based personalization.
+- Immutable audit log for every step.
 
 ## Why This Can Scale
 
